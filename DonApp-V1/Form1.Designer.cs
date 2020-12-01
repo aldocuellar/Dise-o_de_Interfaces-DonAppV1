@@ -28,13 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.BarraSuperior = new System.Windows.Forms.Panel();
+            this.PanelPrincipal = new System.Windows.Forms.Panel();
+            this.BTNCerrar = new System.Windows.Forms.Button();
+            this.BTNMaximizar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BarraSuperior.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // BarraSuperior
+            // 
+            this.BarraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BarraSuperior.Controls.Add(this.button1);
+            this.BarraSuperior.Controls.Add(this.BTNMaximizar);
+            this.BarraSuperior.Controls.Add(this.BTNCerrar);
+            this.BarraSuperior.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BarraSuperior.Location = new System.Drawing.Point(0, 0);
+            this.BarraSuperior.Name = "BarraSuperior";
+            this.BarraSuperior.Size = new System.Drawing.Size(838, 36);
+            this.BarraSuperior.TabIndex = 0;
+            // 
+            // PanelPrincipal
+            // 
+            this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.PanelPrincipal.Location = new System.Drawing.Point(0, 36);
+            this.PanelPrincipal.Name = "PanelPrincipal";
+            this.PanelPrincipal.Size = new System.Drawing.Size(838, 434);
+            this.PanelPrincipal.TabIndex = 1;
+            // 
+            // BTNCerrar
+            // 
+            this.BTNCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNCerrar.FlatAppearance.BorderSize = 0;
+            this.BTNCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.BTNCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BTNCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNCerrar.ForeColor = System.Drawing.Color.White;
+            this.BTNCerrar.Location = new System.Drawing.Point(804, 0);
+            this.BTNCerrar.Name = "BTNCerrar";
+            this.BTNCerrar.Size = new System.Drawing.Size(34, 34);
+            this.BTNCerrar.TabIndex = 0;
+            this.BTNCerrar.Text = "X";
+            this.BTNCerrar.UseVisualStyleBackColor = false;
+            // 
+            // BTNMaximizar
+            // 
+            this.BTNMaximizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNMaximizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BTNMaximizar.FlatAppearance.BorderSize = 0;
+            this.BTNMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNMaximizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNMaximizar.ForeColor = System.Drawing.Color.White;
+            this.BTNMaximizar.Location = new System.Drawing.Point(769, 0);
+            this.BTNMaximizar.Name = "BTNMaximizar";
+            this.BTNMaximizar.Size = new System.Drawing.Size(34, 34);
+            this.BTNMaximizar.TabIndex = 1;
+            this.BTNMaximizar.Text = " □";
+            this.BTNMaximizar.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(734, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(34, 34);
+            this.button1.TabIndex = 2;
+            this.button1.Text = " _";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(838, 470);
+            this.Controls.Add(this.PanelPrincipal);
+            this.Controls.Add(this.BarraSuperior);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.BarraSuperior.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel BarraSuperior;
+        private System.Windows.Forms.Panel PanelPrincipal;
+        private System.Windows.Forms.Button BTNCerrar;
+        private System.Windows.Forms.Button BTNMaximizar;
+        private System.Windows.Forms.Button button1;
     }
 }
 
