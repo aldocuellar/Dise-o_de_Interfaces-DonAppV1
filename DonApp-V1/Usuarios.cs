@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DonApp_V1
 {
-    public partial class Login : Form
+    public partial class Usuarios : Form
     {
-        public Login()
+        public Usuarios()
         {
             InitializeComponent();
-        }
-
-        private void BTNLogin_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

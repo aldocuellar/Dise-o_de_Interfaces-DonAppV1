@@ -31,6 +31,7 @@ namespace DonApp_V1
         public Form1()
         {
             InitializeComponent();
+            SideMenu.Visible =false;
             openChildForm(new Login());
         }
         
