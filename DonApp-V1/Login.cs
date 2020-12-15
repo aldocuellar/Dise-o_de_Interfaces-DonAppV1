@@ -17,9 +17,12 @@ namespace DonApp_V1
             InitializeComponent();
         }
 
+        
         private void BTNLogin_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+
     }
 }

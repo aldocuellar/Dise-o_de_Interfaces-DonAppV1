@@ -31,10 +31,12 @@ namespace DonApp_V1
         public Form1()
         {
             InitializeComponent();
-            SideMenu.Visible =false;
             openChildForm(new Login());
         }
-        
-    
+
+        private void BTNCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
