@@ -9,3 +9,6 @@ C:\Users\hit_h\Documents\GitHub\DonAppV1\DonApp-V1\obj\Debug\DonApp-V1.csproj.Ge
 C:\Users\hit_h\Documents\GitHub\DonAppV1\DonApp-V1\obj\Debug\DonApp-V1.csproj.CoreCompileInputs.cache
 C:\Users\hit_h\Documents\GitHub\DonAppV1\DonApp-V1\obj\Debug\DonApp-V1.exe
 C:\Users\hit_h\Documents\GitHub\DonAppV1\DonApp-V1\obj\Debug\DonApp-V1.pdb
+C:\Users\hit_h\Documents\GitHub\DonAppV1\DonApp-V1\obj\Debug\DonApp_V1.Usuarios.resources
+C:\Users\hit_h\Documents\GitHub\DonAppV1\DonApp-V1\obj\Debug\DonApp_V1.Campañas.resources
+C:\Users\hit_h\Documents\GitHub\DonAppV1\DonApp-V1\obj\Debug\DonApp_V1.Donaciones.resources

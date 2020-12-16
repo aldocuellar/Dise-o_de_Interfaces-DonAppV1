@@ -20,7 +20,14 @@ namespace DonApp_V1
         
         private void BTNLogin_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (TBUsername.Text=="admin" && TBUserPassword.Text=="password")
+            {
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Datos incorrectos","Error");
+            }
         }
 
 

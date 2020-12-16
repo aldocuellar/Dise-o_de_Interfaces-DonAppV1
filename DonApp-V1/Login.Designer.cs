@@ -82,6 +82,7 @@
             this.TBUserPassword.Location = new System.Drawing.Point(356, 276);
             this.TBUserPassword.Multiline = true;
             this.TBUserPassword.Name = "TBUserPassword";
+            this.TBUserPassword.PasswordChar = '*';
             this.TBUserPassword.Size = new System.Drawing.Size(151, 33);
             this.TBUserPassword.TabIndex = 1;
             this.TBUserPassword.UseSystemPasswordChar = true;

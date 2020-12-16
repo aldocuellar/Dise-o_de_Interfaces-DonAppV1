@@ -35,23 +35,23 @@
             this.BTNCerrar = new System.Windows.Forms.Button();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
             this.SideMenu = new System.Windows.Forms.Panel();
+            this.lblLogOut = new System.Windows.Forms.Label();
+            this.BTNHistorial = new System.Windows.Forms.Button();
+            this.BTNDonaciones = new System.Windows.Forms.Button();
+            this.BTNCampañas = new System.Windows.Forms.Button();
+            this.BTNUsuarios = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblAdministrador = new System.Windows.Forms.Label();
+            this.UserSideMenuPic = new System.Windows.Forms.PictureBox();
             this.PanelSecundario = new System.Windows.Forms.Panel();
             this.LogoMainMenu = new System.Windows.Forms.PictureBox();
-            this.UserSideMenuPic = new System.Windows.Forms.PictureBox();
-            this.lblAdministrador = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BTNUsuarios = new System.Windows.Forms.Button();
-            this.BTNCampañas = new System.Windows.Forms.Button();
-            this.BTNDonaciones = new System.Windows.Forms.Button();
-            this.BTNHistorial = new System.Windows.Forms.Button();
-            this.lblLogOut = new System.Windows.Forms.Label();
             this.BarraSuperior.SuspendLayout();
             this.PanelPrincipal.SuspendLayout();
             this.SideMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UserSideMenuPic)).BeginInit();
             this.PanelSecundario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoMainMenu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSideMenuPic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraSuperior
@@ -65,6 +65,7 @@
             this.BarraSuperior.Name = "BarraSuperior";
             this.BarraSuperior.Size = new System.Drawing.Size(838, 36);
             this.BarraSuperior.TabIndex = 0;
+            this.BarraSuperior.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BarraSuperior_MouseMove);
             // 
             // button1
             // 
@@ -136,109 +137,17 @@
             this.SideMenu.Size = new System.Drawing.Size(201, 434);
             this.SideMenu.TabIndex = 0;
             // 
-            // PanelSecundario
+            // lblLogOut
             // 
-            this.PanelSecundario.Controls.Add(this.LogoMainMenu);
-            this.PanelSecundario.Location = new System.Drawing.Point(206, 6);
-            this.PanelSecundario.Name = "PanelSecundario";
-            this.PanelSecundario.Size = new System.Drawing.Size(629, 425);
-            this.PanelSecundario.TabIndex = 1;
-            // 
-            // LogoMainMenu
-            // 
-            this.LogoMainMenu.BackColor = System.Drawing.Color.Transparent;
-            this.LogoMainMenu.Image = ((System.Drawing.Image)(resources.GetObject("LogoMainMenu.Image")));
-            this.LogoMainMenu.Location = new System.Drawing.Point(187, 79);
-            this.LogoMainMenu.Name = "LogoMainMenu";
-            this.LogoMainMenu.Size = new System.Drawing.Size(252, 263);
-            this.LogoMainMenu.TabIndex = 1;
-            this.LogoMainMenu.TabStop = false;
-            // 
-            // UserSideMenuPic
-            // 
-            this.UserSideMenuPic.BackColor = System.Drawing.Color.Transparent;
-            this.UserSideMenuPic.Image = ((System.Drawing.Image)(resources.GetObject("UserSideMenuPic.Image")));
-            this.UserSideMenuPic.Location = new System.Drawing.Point(67, 59);
-            this.UserSideMenuPic.Name = "UserSideMenuPic";
-            this.UserSideMenuPic.Size = new System.Drawing.Size(64, 64);
-            this.UserSideMenuPic.TabIndex = 2;
-            this.UserSideMenuPic.TabStop = false;
-            // 
-            // lblAdministrador
-            // 
-            this.lblAdministrador.AutoSize = true;
-            this.lblAdministrador.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdministrador.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.lblAdministrador.Location = new System.Drawing.Point(32, 126);
-            this.lblAdministrador.Name = "lblAdministrador";
-            this.lblAdministrador.Size = new System.Drawing.Size(139, 24);
-            this.lblAdministrador.TabIndex = 2;
-            this.lblAdministrador.Text = "Administrador";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(60, 16);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(77, 26);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // BTNUsuarios
-            // 
-            this.BTNUsuarios.FlatAppearance.BorderSize = 0;
-            this.BTNUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
-            this.BTNUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.BTNUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTNUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNUsuarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.BTNUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("BTNUsuarios.Image")));
-            this.BTNUsuarios.Location = new System.Drawing.Point(-1, 166);
-            this.BTNUsuarios.Name = "BTNUsuarios";
-            this.BTNUsuarios.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BTNUsuarios.Size = new System.Drawing.Size(201, 41);
-            this.BTNUsuarios.TabIndex = 3;
-            this.BTNUsuarios.Text = "Usuarios";
-            this.BTNUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BTNUsuarios.UseVisualStyleBackColor = true;
-            // 
-            // BTNCampañas
-            // 
-            this.BTNCampañas.FlatAppearance.BorderSize = 0;
-            this.BTNCampañas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
-            this.BTNCampañas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.BTNCampañas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTNCampañas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNCampañas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.BTNCampañas.Image = ((System.Drawing.Image)(resources.GetObject("BTNCampañas.Image")));
-            this.BTNCampañas.Location = new System.Drawing.Point(-1, 213);
-            this.BTNCampañas.Name = "BTNCampañas";
-            this.BTNCampañas.Size = new System.Drawing.Size(201, 41);
-            this.BTNCampañas.TabIndex = 4;
-            this.BTNCampañas.Text = "Campañas";
-            this.BTNCampañas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNCampañas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BTNCampañas.UseVisualStyleBackColor = true;
-            // 
-            // BTNDonaciones
-            // 
-            this.BTNDonaciones.FlatAppearance.BorderSize = 0;
-            this.BTNDonaciones.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
-            this.BTNDonaciones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.BTNDonaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTNDonaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNDonaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.BTNDonaciones.Image = ((System.Drawing.Image)(resources.GetObject("BTNDonaciones.Image")));
-            this.BTNDonaciones.Location = new System.Drawing.Point(-1, 260);
-            this.BTNDonaciones.Name = "BTNDonaciones";
-            this.BTNDonaciones.Size = new System.Drawing.Size(201, 41);
-            this.BTNDonaciones.TabIndex = 5;
-            this.BTNDonaciones.Text = "Donaciones";
-            this.BTNDonaciones.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNDonaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BTNDonaciones.UseVisualStyleBackColor = true;
+            this.lblLogOut.AutoSize = true;
+            this.lblLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.lblLogOut.Location = new System.Drawing.Point(32, 401);
+            this.lblLogOut.Name = "lblLogOut";
+            this.lblLogOut.Size = new System.Drawing.Size(138, 24);
+            this.lblLogOut.TabIndex = 7;
+            this.lblLogOut.Text = "Cerrar Sesión";
+            this.lblLogOut.Click += new System.EventHandler(this.lblLogOut_Click);
             // 
             // BTNHistorial
             // 
@@ -258,16 +167,111 @@
             this.BTNHistorial.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BTNHistorial.UseVisualStyleBackColor = true;
             // 
-            // lblLogOut
+            // BTNDonaciones
             // 
-            this.lblLogOut.AutoSize = true;
-            this.lblLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.lblLogOut.Location = new System.Drawing.Point(32, 401);
-            this.lblLogOut.Name = "lblLogOut";
-            this.lblLogOut.Size = new System.Drawing.Size(138, 24);
-            this.lblLogOut.TabIndex = 7;
-            this.lblLogOut.Text = "Cerrar Sesión";
+            this.BTNDonaciones.FlatAppearance.BorderSize = 0;
+            this.BTNDonaciones.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
+            this.BTNDonaciones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BTNDonaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNDonaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNDonaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNDonaciones.Image = ((System.Drawing.Image)(resources.GetObject("BTNDonaciones.Image")));
+            this.BTNDonaciones.Location = new System.Drawing.Point(-1, 260);
+            this.BTNDonaciones.Name = "BTNDonaciones";
+            this.BTNDonaciones.Size = new System.Drawing.Size(201, 41);
+            this.BTNDonaciones.TabIndex = 5;
+            this.BTNDonaciones.Text = "Donaciones";
+            this.BTNDonaciones.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNDonaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BTNDonaciones.UseVisualStyleBackColor = true;
+            // 
+            // BTNCampañas
+            // 
+            this.BTNCampañas.FlatAppearance.BorderSize = 0;
+            this.BTNCampañas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
+            this.BTNCampañas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BTNCampañas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNCampañas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNCampañas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNCampañas.Image = ((System.Drawing.Image)(resources.GetObject("BTNCampañas.Image")));
+            this.BTNCampañas.Location = new System.Drawing.Point(-1, 213);
+            this.BTNCampañas.Name = "BTNCampañas";
+            this.BTNCampañas.Size = new System.Drawing.Size(201, 41);
+            this.BTNCampañas.TabIndex = 4;
+            this.BTNCampañas.Text = "Campañas";
+            this.BTNCampañas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNCampañas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BTNCampañas.UseVisualStyleBackColor = true;
+            this.BTNCampañas.Click += new System.EventHandler(this.BTNCampañas_Click);
+            // 
+            // BTNUsuarios
+            // 
+            this.BTNUsuarios.FlatAppearance.BorderSize = 0;
+            this.BTNUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
+            this.BTNUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BTNUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNUsuarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("BTNUsuarios.Image")));
+            this.BTNUsuarios.Location = new System.Drawing.Point(-1, 166);
+            this.BTNUsuarios.Name = "BTNUsuarios";
+            this.BTNUsuarios.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BTNUsuarios.Size = new System.Drawing.Size(201, 41);
+            this.BTNUsuarios.TabIndex = 3;
+            this.BTNUsuarios.Text = "Usuarios";
+            this.BTNUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BTNUsuarios.UseVisualStyleBackColor = true;
+            this.BTNUsuarios.Click += new System.EventHandler(this.BTNUsuarios_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(60, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(77, 26);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblAdministrador
+            // 
+            this.lblAdministrador.AutoSize = true;
+            this.lblAdministrador.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdministrador.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.lblAdministrador.Location = new System.Drawing.Point(32, 126);
+            this.lblAdministrador.Name = "lblAdministrador";
+            this.lblAdministrador.Size = new System.Drawing.Size(139, 24);
+            this.lblAdministrador.TabIndex = 2;
+            this.lblAdministrador.Text = "Administrador";
+            // 
+            // UserSideMenuPic
+            // 
+            this.UserSideMenuPic.BackColor = System.Drawing.Color.Transparent;
+            this.UserSideMenuPic.Image = ((System.Drawing.Image)(resources.GetObject("UserSideMenuPic.Image")));
+            this.UserSideMenuPic.Location = new System.Drawing.Point(67, 59);
+            this.UserSideMenuPic.Name = "UserSideMenuPic";
+            this.UserSideMenuPic.Size = new System.Drawing.Size(64, 64);
+            this.UserSideMenuPic.TabIndex = 2;
+            this.UserSideMenuPic.TabStop = false;
+            // 
+            // PanelSecundario
+            // 
+            this.PanelSecundario.Controls.Add(this.LogoMainMenu);
+            this.PanelSecundario.Location = new System.Drawing.Point(206, 6);
+            this.PanelSecundario.Name = "PanelSecundario";
+            this.PanelSecundario.Size = new System.Drawing.Size(629, 425);
+            this.PanelSecundario.TabIndex = 1;
+            // 
+            // LogoMainMenu
+            // 
+            this.LogoMainMenu.BackColor = System.Drawing.Color.Transparent;
+            this.LogoMainMenu.Image = ((System.Drawing.Image)(resources.GetObject("LogoMainMenu.Image")));
+            this.LogoMainMenu.Location = new System.Drawing.Point(187, 79);
+            this.LogoMainMenu.Name = "LogoMainMenu";
+            this.LogoMainMenu.Size = new System.Drawing.Size(252, 263);
+            this.LogoMainMenu.TabIndex = 1;
+            this.LogoMainMenu.TabStop = false;
             // 
             // Form1
             // 
@@ -283,10 +287,10 @@
             this.PanelPrincipal.ResumeLayout(false);
             this.SideMenu.ResumeLayout(false);
             this.SideMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UserSideMenuPic)).EndInit();
             this.PanelSecundario.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.LogoMainMenu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSideMenuPic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
