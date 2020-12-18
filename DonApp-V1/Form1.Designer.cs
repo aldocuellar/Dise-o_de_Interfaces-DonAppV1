@@ -45,6 +45,8 @@
             this.UserSideMenuPic = new System.Windows.Forms.PictureBox();
             this.PanelSecundario = new System.Windows.Forms.Panel();
             this.LogoMainMenu = new System.Windows.Forms.PictureBox();
+            this.Icono = new System.Windows.Forms.PictureBox();
+            this.DonApp = new System.Windows.Forms.PictureBox();
             this.BarraSuperior.SuspendLayout();
             this.PanelPrincipal.SuspendLayout();
             this.SideMenu.SuspendLayout();
@@ -52,11 +54,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.UserSideMenuPic)).BeginInit();
             this.PanelSecundario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoMainMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Icono)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DonApp)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraSuperior
             // 
             this.BarraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BarraSuperior.Controls.Add(this.DonApp);
+            this.BarraSuperior.Controls.Add(this.Icono);
             this.BarraSuperior.Controls.Add(this.button1);
             this.BarraSuperior.Controls.Add(this.BTNMaximizar);
             this.BarraSuperior.Controls.Add(this.BTNCerrar);
@@ -273,6 +279,24 @@
             this.LogoMainMenu.TabIndex = 1;
             this.LogoMainMenu.TabStop = false;
             // 
+            // Icono
+            // 
+            this.Icono.Image = ((System.Drawing.Image)(resources.GetObject("Icono.Image")));
+            this.Icono.Location = new System.Drawing.Point(3, 2);
+            this.Icono.Name = "Icono";
+            this.Icono.Size = new System.Drawing.Size(32, 32);
+            this.Icono.TabIndex = 2;
+            this.Icono.TabStop = false;
+            // 
+            // DonApp
+            // 
+            this.DonApp.Image = ((System.Drawing.Image)(resources.GetObject("DonApp.Image")));
+            this.DonApp.Location = new System.Drawing.Point(41, 4);
+            this.DonApp.Name = "DonApp";
+            this.DonApp.Size = new System.Drawing.Size(120, 30);
+            this.DonApp.TabIndex = 2;
+            this.DonApp.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -291,6 +315,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.UserSideMenuPic)).EndInit();
             this.PanelSecundario.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.LogoMainMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Icono)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DonApp)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -313,6 +339,8 @@
         private System.Windows.Forms.Button BTNHistorial;
         private System.Windows.Forms.Button BTNDonaciones;
         private System.Windows.Forms.Label lblLogOut;
+        private System.Windows.Forms.PictureBox DonApp;
+        private System.Windows.Forms.PictureBox Icono;
     }
 }
 

@@ -69,11 +69,12 @@
             // 
             // BTNEliminar
             // 
-            this.BTNEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(218)))), ((int)(((byte)(136)))));
+            this.BTNEliminar.BackColor = System.Drawing.Color.Transparent;
             this.BTNEliminar.FlatAppearance.BorderSize = 0;
             this.BTNEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTNEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNEliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BTNEliminar.Image")));
             this.BTNEliminar.Location = new System.Drawing.Point(388, 381);
             this.BTNEliminar.Name = "BTNEliminar";
             this.BTNEliminar.Size = new System.Drawing.Size(101, 32);
@@ -83,11 +84,12 @@
             // 
             // BTNModificar
             // 
-            this.BTNModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(218)))), ((int)(((byte)(136)))));
+            this.BTNModificar.BackColor = System.Drawing.Color.Transparent;
             this.BTNModificar.FlatAppearance.BorderSize = 0;
             this.BTNModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTNModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNModificar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNModificar.Image = ((System.Drawing.Image)(resources.GetObject("BTNModificar.Image")));
             this.BTNModificar.Location = new System.Drawing.Point(281, 381);
             this.BTNModificar.Name = "BTNModificar";
             this.BTNModificar.Size = new System.Drawing.Size(101, 32);
@@ -172,11 +174,12 @@
             // 
             // BTNCrear
             // 
-            this.BTNCrear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(218)))), ((int)(((byte)(136)))));
+            this.BTNCrear.BackColor = System.Drawing.Color.Transparent;
             this.BTNCrear.FlatAppearance.BorderSize = 0;
             this.BTNCrear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTNCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNCrear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+            this.BTNCrear.Image = ((System.Drawing.Image)(resources.GetObject("BTNCrear.Image")));
             this.BTNCrear.Location = new System.Drawing.Point(171, 381);
             this.BTNCrear.Name = "BTNCrear";
             this.BTNCrear.Size = new System.Drawing.Size(101, 32);

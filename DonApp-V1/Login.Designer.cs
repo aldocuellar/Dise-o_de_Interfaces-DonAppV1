@@ -58,13 +58,14 @@
             // BTNLogin
             // 
             this.BTNLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BTNLogin.BackColor = System.Drawing.Color.White;
+            this.BTNLogin.BackColor = System.Drawing.Color.Transparent;
             this.BTNLogin.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BTNLogin.FlatAppearance.BorderSize = 0;
             this.BTNLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
             this.BTNLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.BTNLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTNLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNLogin.Image = ((System.Drawing.Image)(resources.GetObject("BTNLogin.Image")));
             this.BTNLogin.Location = new System.Drawing.Point(340, 328);
             this.BTNLogin.Name = "BTNLogin";
             this.BTNLogin.Size = new System.Drawing.Size(170, 40);
