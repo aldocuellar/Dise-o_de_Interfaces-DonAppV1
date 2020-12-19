@@ -85,5 +85,15 @@ namespace DonApp_V1
         {
             openChildForm2(new Campañas());
         }
+
+        private void BTNDonaciones_Click(object sender, EventArgs e)
+        {
+            openChildForm2(new Donaciones());
+        }
+
+        private void BTNHistorial_Click(object sender, EventArgs e)
+        {
+            openChildForm2(new Historial());
+        }
     }
 }

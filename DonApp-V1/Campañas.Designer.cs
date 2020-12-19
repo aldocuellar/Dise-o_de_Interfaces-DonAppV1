@@ -193,7 +193,7 @@
             this.BTNBuscar.FlatAppearance.BorderSize = 0;
             this.BTNBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTNBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BTNBuscar.Image")));
-            this.BTNBuscar.Location = new System.Drawing.Point(381, 12);
+            this.BTNBuscar.Location = new System.Drawing.Point(368, 12);
             this.BTNBuscar.Name = "BTNBuscar";
             this.BTNBuscar.Size = new System.Drawing.Size(32, 32);
             this.BTNBuscar.TabIndex = 33;
@@ -213,7 +213,7 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.textBox1.Location = new System.Drawing.Point(239, 12);
+            this.textBox1.Location = new System.Drawing.Point(226, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(136, 34);
